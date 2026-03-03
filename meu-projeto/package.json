@@ -1,0 +1,21 @@
+{
+  "name": "meu-projeto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+
+  "type": "module",
+
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
